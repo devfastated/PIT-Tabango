@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    font-size: 30px;
+    color: orange;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    top: 0;
+    position: relative;
+}
+.small
+{
+    text-align: center;
+    
+}
+img{
+    position: absolute;
+    width:80px;
+    left: 400px;
+    top: 5px;
+}
+.container{
+    margin: 20px;
+}
+.container ul
+{
+    overflow: hidden;
+    background-color: lightcoral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container ul li{
+    float: left;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.container li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    font-family: Georgia;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+.courselist{
+    text-align: center;
+    
+
+    overflow: hidden;
+}
+.courselist li  {
+    margin: 60px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight:lighter;
+    border: 1px solid black;
+    padding: 15px;
+    display: inline-block;
+    background-color: #FFD580;
+    border-radius: 20px;
+    
+}
+.courselist li:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    
+   
+}
+.courselist h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 1px 0 0 orange, 0 -1px 0 orange, 0 1px 0 orange, -1px 0 0 orange;
+
+}
+.VMG{
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    text-decoration: none;
+   
+}
+.VMG h3{
+    margin: 0;
+}
+.VMG .VMG .vision{
+    text-align: center;
+    justify-content: center;
+}
+.VMG .VMG .vision p{
+    text-align: justify;
+}
+
+
+.VMG li{
+    
+    list-style-type: none;
+    font-weight: lighter;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FFD580;
+    text-align: justify;
+    
+    
+}
+.VMG ul li:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+    
+a{
+    color: inherit;
+}
+
+

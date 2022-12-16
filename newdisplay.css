@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.container .content-table th{
+        text-transform: uppercase;
+        margin: 10px;
+        padding: 10px;  
+        background-color: lightgray;
+        font-size: 15px;
+    
+        
+}
+.btn a{
+        
+       
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+        background-color: bisque;
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+
+}
+.btn a:hover{
+
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 20px;
+        
+    
+
+}
+.btnbtn{
+    text-decoration: none;
+    text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+th {
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: orange;
+    color: black;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px 10px;
+    letter-spacing: 2px;
+}
+button a{
+    position: absolute;
+    color: inherit;
+    text-decoration:none;
+    border: 1px solid black;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 50%;
+    margin-top: 200px;
+}

@@ -1,0 +1,46 @@
+li
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+li:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transform: scaleY(1.5);
+    transition: 0.5s;
+   
+}
+
+button{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: yellow;
+    margin: 5cm;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: orange;
+    transition: 0.5s;
+    
+}
+.btn{
+    text-decoration: none;
+    list-style-type: none;
+}
